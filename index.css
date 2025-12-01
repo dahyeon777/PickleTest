@@ -1,5 +1,5 @@
 body {
-  background-image: url("hero_3.png");
+  background-image: url("hero_4.png");
 
   background-size: cover;
   background-repeat: no-repeat;
@@ -13,7 +13,6 @@ body {
 }
 
 .main_nav {
-  margin-left: 24px;
   display: flex;
   justify-content: flex-end;
 }
@@ -27,9 +26,14 @@ body {
 
   justify-content: flex-end;
 }
-.main_nav li {
-  margin: 0 24px;
+.main_nav li img {
+  margin: 0;
 }
+
+.main_nav li a {
+  margin: 0 32px 0 0;
+}
+
 .main_nav a {
   color: #518c35;
   font-weight: bold;
