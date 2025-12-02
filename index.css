@@ -98,6 +98,10 @@ header {
   .grid-container {
     grid-template-columns: 1fr 1fr;
   }
+  .image_center img {
+    max-width: 100%;
+    height: auto;
+  }
   .header_top_bar {
     border: none;
   }
