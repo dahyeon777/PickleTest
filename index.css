@@ -98,4 +98,10 @@ header {
   .grid-container {
     grid-template-columns: 1fr 1fr;
   }
+  .header_top_bar {
+    border: none;
+  }
+  .main_nav ul {
+    border: none;
+  }
 }
