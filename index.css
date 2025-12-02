@@ -94,9 +94,9 @@ header {
   margin-top: 50px;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 700px) {
   .grid-container {
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
   }
   .image_center img {
     max-width: 100%;
@@ -104,6 +104,7 @@ header {
   }
   .header_top_bar {
     border: none;
+    margin-left: 8px;
   }
   .main_nav ul {
     border: none;
